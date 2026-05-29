@@ -1,1 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agro Forte, Futuro Sustentável</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+    <header class="main-header">
+        <div class="header-container">
+            <h1 class="logo">Agro<span>Sustentável</span></h1>
+            <nav class="nav-menu">
+                <a href="#inicio">Início</a>
+                <a href="#pilares">Pilares</a>
+                <a href="#contato">Contato</a>
+            </nav>
+            <button id="theme-toggle" class="btn-theme" aria-label="Alternar modo escuro">Ajustar Tema</button>
+        </div>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero-section">
+            <div class="hero-content">
+                <h2>Agro forte, futuro sustentável</h2>
+                <p>O equilíbrio perfeito entre a alta produtividade no campo e a preservação do meio ambiente. Descubra como a tecnologia e a consciência transformam o amanhã.</p>
+                <button id="cta-btn" class="btn-primary">Saiba Mais</button>
+            </div>
+        </section>
+
+        <div id="dynamic-alert" class="alert-container hidden"></div>
+
+        <section id="pilares" class="pillars-section">
+            <div class="section-title">
+                <h3>Nossos Pilares de Equilíbrio</h3>
+                <p>Produzir mais, conservando os recursos naturais.</p>
+            </div>
+
+            <div class="cards-container">
+                <article class="card">
+                    <div class="card-image-placeholder img-tech"></div>
+                    <h4>Tecnologia Verde</h4>
+                    <p>Uso de drones, sensores e inteligência artificial para otimizar o uso de água e insumos, reduzindo o impacto ambiental.</p>
+                </article>
+
+                <article class="card">
+                    <div class="card-image-placeholder img-soil"></div>
+                    <h4>Manejo Direto</h4>
+                    <p>Práticas agrícolas que protegem o solo contra a erosão, mantendo os nutrientes e sequestrando carbono de forma eficiente.</p>
+                </article>
+
+                <article class="card">
+                    <div class="card-image-placeholder img-energy"></div>
+                    <h4>Energia Limpa</h4>
+                    <p>Matriz energética rural baseada em biomassa, energia solar e biodigestores, gerando autonomia e sustentabilidade.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="contato" class="contact-section">
+            <div class="contact-container">
+                <h3>Faça Parte Desse Futuro</h3>
+                <p>Receba informativos sobre técnicas de manejo sustentável e inovações do agronegócio.</p>
+                
+                <form id="sustainable-form" class="newsletter-form">
+                    <div class="form-group">
+                        <input type="text" id="nome" placeholder="Digite seu nome" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Digite seu melhor e-mail" required>
+                    </div>
+                    <button type="submit" class="btn-submit">Inscrever-se</button>
+                </form>
+                <p id="form-feedback" class="form-feedback-text"></p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <p>&copy; 2026 AgroSustentável. Equilíbrio entre produção e meio ambiente.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
